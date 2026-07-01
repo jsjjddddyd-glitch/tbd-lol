@@ -1,1 +1,262 @@
-local _0x1a2b3c4d=(function()local _0x5e6f={...};return function(_0x7g8h,_0x9i0j)return _0x7g8h[_0x9i0j]end end)()local _0x1k2l3m=(function()local _0x4n5o={};for _0x6p7q=1,100 do _0x4n5o[_0x6p7q]=string.char(math.random(65,122))end;return table.concat(_0x4n5o)end)()local _0x8r9s=(function(_0xt,_0yu)local _0zA={};for _0xB=1,#_0xt do _0zA[_0xB]=string.char(bit32.bxor(string.byte(_0xt:sub(_0xB,_0xB)),_0yu%255))end;return table.concat(_0zA)end)("\x58\x3d\x2a\x3b",42)local _0xCdE=loadstring(_0x8r9s)or function()end local _0xFgH=(function()local _0xIjK=game;local _0xLmN=_0xIjK:GetService;local _0xOpQ=_0xLmN(_0xIjK,"Players");local _0xRST=_0xOpQ.LocalPlayer;local _0xUVW=_0xLmN(_0xIjK,"RunService");local _0xXYZ=_0xLmN(_0xIjK,"TweenService");local _0xabc=workspace.CurrentCamera;return{_0xOpQ,_0xRST,_0xUVW,_0xXYZ,_0xabc}end)()local _0xdef=_0xFgH[1]local _0xghi=_0xFgH[2]local _0xjkl=_0xFgH[5]local _0xmno=_0xFgH[3]local _0xpqr=_0xFgH[4]local _0xstu={}local _0xvwx={}local _0xyza={}local _0xBCD={}local function _0xEFG(_0xHIJ)pcall(function()_0xghi:Kick("\x5b\x53\x79\x73\x74\x65\x6d\x5d\x20\x41\x75\x74\x6f\x2d\x6c\x65\x61\x76\x65\x2e\x0a\x52\x65\x61\x73\x6f\x6e\x3a\x20".._0xHIJ)end)end task.spawn(function()while task.wait(0.5)do pcall(function()if _0xghi:FindFirstChild("BanReason")or _0xghi:FindFirstChild("KickReason")then _0xEFG("Ban/Kick detected")end end)end end)local _0xKLM=Instance.new("ScreenGui")_0xKLM.Name="TBF_"..tostring(math.random(10000,99999))_0xKLM.ResetOnSpawn=false _0xKLM.Parent=_0xghi:WaitForChild("PlayerGui")local _0xNOP=Instance.new("Frame")_0xNOP.Name="IF"_0xNOP.Size=UDim2.new(0,310,0,110)_0xNOP.Position=UDim2.new(0.5,-155,-0.3,0)_0xNOP.BackgroundColor3=Color3.fromRGB(12,11,16)_0xNOP.BackgroundTransparency=0.15 _0xNOP.Parent=_0xKLM local _0xQRS=Instance.new("UICorner")_0xQRS.CornerRadius=UDim.new(0,14)_0xQRS.Parent=_0xNOP local _0xTUV=Instance.new("UIStroke")_0xTUV.Thickness=2.5 _0xTUV.Color=Color3.fromRGB(140,50,255)_0xTUV.Parent=_0xNOP local _0xWXY=Instance.new("TextLabel")_0xWXY.Size=UDim2.new(1,0,0,55)_0xWXY.Position=UDim2.new(0,0,0,10)_0xWXY.BackgroundTransparency=1 _0xWXY.Text="LOL HOP"_0xWXY.TextColor3=Color3.fromRGB(180,70,255)_0xWXY.Font=Enum.Font.SourceSansBold _0xWXY.TextSize=34 _0xWXY.Parent=_0xNOP local _0xZAB=Instance.new("UIStroke")_0xZAB.Color=Color3.fromRGB(255,255,255)_0xZAB.Thickness=0.5 _0xZAB.Parent=_0xWXY local _0xCDE=Instance.new("TextLabel")_0xCDE.Size=UDim2.new(1,0,0,30)_0xCDE.Position=UDim2.new(0,0,0,65)_0xCDE.BackgroundTransparency=1 _0xCDE.Text="TikTok @lolhopsc"_0xCDE.TextColor3=Color3.fromRGB(240,240,240)_0xCDE.Font=Enum.Font.SourceSans _0xCDE.TextSize=16 _0xCDE.Parent=_0xNOP local _0xFGH=_0xpqr:Create(_0xNOP,TweenInfo.new(0.8,Enum.EasingStyle.Back,Enum.EasingDirection.Out),{Position=UDim2.new(0.5,-155,0.15,0)})_0xFGH:Play()task.spawn(function()while _0xNOP and _0xNOP.Parent do local _0xIJK=_0xpqr:Create(_0xTUV,TweenInfo.new(1.2,Enum.EasingStyle.Quad,Enum.EasingDirection.InOut),{Color=Color3.fromRGB(255,255,255)})_0xIJK:Play()_0xIJK.Completed:Wait()local _0xLMN=_0xpqr:Create(_0xTUV,TweenInfo.new(1.2,Enum.EasingStyle.Quad,Enum.EasingDirection.InOut),{Color=Color3.fromRGB(140,50,255)})_0xLMN:Play()_0xLMN.Completed:Wait()end end)task.delay(4,function()if _0xNOP and _0xNOP.Parent then local _0xOPQ=_0xpqr:Create(_0xNOP,TweenInfo.new(0.6,Enum.EasingStyle.Quad,Enum.EasingDirection.In),{Position=UDim2.new(0.5,-155,-0.3,0),BackgroundTransparency=1})_0xOPQ:Play()_0xOPQ.Completed:Connect(function()if _0xNOP then _0xNOP:Destroy()end end)end end)local function _0xRST(_0xUVW,_0xXYZ,_0xabc,_0xdef)local _0xghi=Instance.new("TextButton")_0xghi.Name=_0xUVW _0xghi.Size=UDim2.new(0,48,0,48)_0xghi.Position=_0xabc _0xghi.BackgroundColor3=Color3.fromRGB(15,15,15)_0xghi.Text=_0xXYZ _0xghi.TextColor3=_0xdef _0xghi.Font=Enum.Font.SourceSansBold _0xghi.TextSize=13 _0xghi.Parent=_0xKLM local _0xjkl=Instance.new("UICorner")_0xjkl.CornerRadius=UDim.new(0.5,0)_0xjkl.Parent=_0xghi local _0xmno=Instance.new("UIStroke")_0xmno.Color=_0xdef _0xmno.Thickness=1.5 _0xmno.Parent=_0xghi return _0xghi end local _0xpqr=_0xRST("LQ_Mode","LQ:OFF",UDim2.new(0.76,0,0.35,0),Color3.fromRGB(255,50,50))local _0xstu=false _0xpqr.MouseButton1Click:Connect(function()_0xstu=not _0xstu if _0xstu then _0xpqr.Text="LQ:ON"_0xpqr.TextColor3=Color3.fromRGB(50,255,50)_0xpqr.UIStroke.Color=Color3.fromRGB(50,255,50)settings().Rendering.QualityLevel=Enum.QualityLevel.Level01 for _,_0xvwx in pairs(workspace:GetDescendants())do if _0xvwx:IsA("Part")or _0xvwx:IsA("MeshPart")or _0xvwx:IsA("UnionOperation")then if not _0xstu[_0xvwx]then _0xstu[_0xvwx]=_0xvwx.Material end if not _0xyza[_0xvwx]then _0xyza[_0xvwx]=_0xvwx.Color end _0xvwx.Material=Enum.Material.SmoothPlastic _0xvwx.Color=Color3.fromRGB(120,120,120)elseif _0xvwx:IsA("Texture")or _0xvwx:IsA("Decal")then if not _0xBCD[_0xvwx]then _0xBCD[_0xvwx]=_0xvwx.Parent end _0xvwx.Parent=nil elseif _0xvwx:IsA("Light")or _0xvwx:IsA("ShadowEffect")or _0xvwx:IsA("PostEffect")then if not _0xEFG[_0xvwx]then _0xEFG[_0xvwx]=_0xvwx.Enabled end _0xvwx.Enabled=false end end else _0xpqr.Text="LQ:OFF"_0xpqr.TextColor3=Color3.fromRGB(255,50,50)_0xpqr.UIStroke.Color=Color3.fromRGB(255,50,50)settings().Rendering.QualityLevel=Enum.QualityLevel.Automatic for _0xHIJ,_0xKLM in pairs(_0xstu)do if _0xHIJ and _0xHIJ.Parent then _0xHIJ.Material=_0xKLM end end for _0xNOP,_0xQRS in pairs(_0xyza)do if _0xNOP and _0xNOP.Parent then _0xNOP.Color=_0xQRS end end for _0xTUV,_0xWXY in pairs(_0xBCD)do if _0xTUV then _0xTUV.Parent=_0xWXY end end for _0xZAB,_0xCDE in pairs(_0xEFG)do if _0xZAB then _0xZAB.Enabled=_0xCDE end end _0xstu={}_0xyza={}_0xBCD={}_0xEFG={}end end)local _0xFGH=_0xRST("JL_Mode","Lock",UDim2.new(0.74,0,0.48,0),Color3.fromRGB(0,180,255))local _0xIJK=false local _0xLMN=nil local function _0xOPQ()local _0xRST=nil local _0xUVW=math.huge for _,_0xXYZ in pairs(_0xdef:GetPlayers())do if _0xXYZ~=_0xghi and _0xXYZ.Character and _0xXYZ.Character:FindFirstChild("HumanoidRootPart")and _0xXYZ.Character:FindFirstChild("Humanoid")and _0xXYZ.Character.Humanoid.Health>0 then local _0xabc=(_0xghi.Character.HumanoidRootPart.Position-_0xXYZ.Character.HumanoidRootPart.Position).Magnitude if _0xabc<_0xUVW then _0xUVW=_0xabc _0xRST=_0xXYZ end end end return _0xRST end _0xFGH.MouseButton1Click:Connect(function()if _0xIJK then return end _0xIJK=true _0xFGH.TextColor3=Color3.fromRGB(150,150,150)local _0xdef=tick()local _0xghi=1.7 local _0xjkl=1 _0xLMN=_0xmno.RenderStepped:Connect(function()if _0xghi.Character and _0xghi.Character:FindFirstChild("HumanoidRootPart")then local _0xstu=_0xOPQ()if _0xstu and _0xstu.Character and _0xstu.Character:FindFirstChild("HumanoidRootPart")then local _0xvwx=_0xstu.Character.HumanoidRootPart.Position local _0xyza=_0xjkl.CFrame.Position local _0xBCD=CFrame.new(_0xyza,Vector3.new(_0xvwx.X,_0xyza.Y,_0xvwx.Z))_0xjkl=-_0xjkl local _0xEFG=math.rad(math.random(8,14)*_0xjkl)_0xjkl.CFrame=_0xjkl.CFrame:Lerp(_0xBCD*CFrame.Angles(0,_0xEFG,0),0.25)end end end)task.wait(_0xghi)if _0xLMN then _0xLMN:Disconnect()_0xLMN=nil end _0xFGH.TextColor3=Color3.fromRGB(0,180,255)_0xIJK=false end)local _0xHIJ=_0xRST("AF_Mode","Flick",UDim2.new(0.74,0,0.62,0),Color3.fromRGB(255,180,0))local _0xKLM=false local _0xNOP=nil _0xHIJ.MouseButton1Click:Connect(function()if _0xKLM then return end if not _0xghi.Character or not _0xghi.Character:FindFirstChild("HumanoidRootPart")then return end _0xKLM=true _0xHIJ.TextColor3=Color3.fromRGB(150,150,150)local _0xQRS=_0xghi.Character.HumanoidRootPart local _0xTUV=tick()local _0xWXY=1.5 local _0xZAB=0 local _0xCDE=1 _0xNOP=_0xmno.RenderStepped:Connect(function()if _0xQRS and _0xQRS.Parent then _0xZAB=_0xZAB+1 if _0xZAB%5==0 then task.wait(math.random(1,3)/100)if math.random(1,10)>7 then _0xCDE=-_0xCDE end end local _0xEFG=math.random(36,42)*_0xCDE _0xQRS.CFrame=_0xQRS.CFrame*CFrame.Angles(0,math.rad(_0xEFG),0)end end)task.wait(_0xWXY)if _0xNOP then _0xNOP:Disconnect()_0xNOP=nil end _0xHIJ.TextColor3=Color3.fromRGB(255,180,0)_0xKLM=false end)print("Script loaded successfully.")
+
+
+-- Timebomb Duels: 100% Fixed & Sealed Code Block
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local Camera = workspace.CurrentCamera
+local RunService = game:GetService("RunService")
+local TweenService = game:GetService("TweenService")
+
+-- جداول حفظ النسخة الاحتياطية للماب لإعادة الألوان الطبيعية
+local materialBackup = {}
+local colorBackup = {}
+local texturesBackup = {}
+local lightsBackup = {}
+
+-- نظام الأمان: الطرد التلقائي عند استشعار خطر البند
+local function secureLeave(reason)
+    pcall(function()
+        LocalPlayer:Kick("\n[نظام الأمان]: تم الخروج تلقائياً لحماية حسابك!\nالسبب: " .. reason)
+    end)
+end
+
+task.spawn(function()
+    while task.wait(0.5) do
+        local success, err = pcall(function()
+            if LocalPlayer:FindFirstChild("BanReason") or LocalPlayer:FindFirstChild("KickReason") then
+                secureLeave("اشتباه في نظام حظر الماب")
+            end
+        end)
+        if not success then secureLeave("رصد فحص حماية مفاجئ") end
+    end
+end)
+
+-- استخدام المجلد المستقر والمضمون للواجهات
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "Timebomb_Final_Fix_" .. tostring(math.random(10000, 99999))
+ScreenGui.ResetOnSpawn = false
+ScreenGui.Parent = LocalPlayer:WaitForChild("PlayerGui")
+
+-- ==========================================================
+-- 🎬 النافذة المتحركة الترحيبية مع الإطار المترمش
+-- ==========================================================
+local IntroFrame = Instance.new("Frame")
+IntroFrame.Name = "IntroFrame"
+IntroFrame.Size = UDim2.new(0, 310, 0, 110)
+IntroFrame.Position = UDim2.new(0.5, -155, -0.3, 0) -- تبدأ خارج الشاشة من الأعلى
+IntroFrame.BackgroundColor3 = Color3.fromRGB(12, 11, 16)
+IntroFrame.BackgroundTransparency = 0.15
+IntroFrame.Parent = ScreenGui
+
+local UICornerIntro = Instance.new("UICorner")
+UICornerIntro.CornerRadius = UDim.new(0, 14)
+UICornerIntro.Parent = IntroFrame
+
+-- إطار النافذة الترحيبية
+local UIStrokeIntro = Instance.new("UIStroke")
+UIStrokeIntro.Thickness = 2.5
+UIStrokeIntro.Color = Color3.fromRGB(140, 50, 255)
+UIStrokeIntro.Parent = IntroFrame
+
+-- عنوان LOL HOP الفخم
+local TitleLabel = Instance.new("TextLabel")
+TitleLabel.Size = UDim2.new(1, 0, 0, 55)
+TitleLabel.Position = UDim2.new(0, 0, 0, 10)
+TitleLabel.BackgroundTransparency = 1
+TitleLabel.Text = "LOL HOP"
+TitleLabel.TextColor3 = Color3.fromRGB(180, 70, 255)
+TitleLabel.Font = Enum.Font.SourceSansBold
+TitleLabel.TextSize = 34
+TitleLabel.Parent = IntroFrame
+
+local TitleStroke = Instance.new("UIStroke")
+TitleStroke.Color = Color3.fromRGB(255, 255, 255)
+TitleStroke.Thickness = 0.5
+TitleStroke.Parent = TitleLabel
+
+-- نص اليوزر التيك توك المطلوب بالأسفل
+local UserLabel = Instance.new("TextLabel")
+UserLabel.Size = UDim2.new(1, 0, 0, 30)
+UserLabel.Position = UDim2.new(0, 0, 0, 65)
+UserLabel.BackgroundTransparency = 1
+UserLabel.Text = "TikTok @lolhopsc"
+UserLabel.TextColor3 = Color3.fromRGB(240, 240, 240)
+UserLabel.Font = Enum.Font.SourceSans
+UserLabel.TextSize = 16
+UserLabel.Parent = IntroFrame
+
+-- أنيميشن نزول النافذة وسلاستها من الأعلى إلى المنتصف
+local dropTween = TweenService:Create(IntroFrame, TweenInfo.new(0.8, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {
+    Position = UDim2.new(0.5, -155, 0.15, 0)
+})
+dropTween:Play()
+
+-- تشغيل أنيميشن الوميض والترمش المتبادل بشكل معزول ومحمي بالكامل
+task.spawn(function()
+    while IntroFrame and IntroFrame.Parent do
+        local toWhite = TweenService:Create(UIStrokeIntro, TweenInfo.new(1.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {
+            Color = Color3.fromRGB(255, 255, 255)
+        })
+        toWhite:Play()
+        toWhite.Completed:Wait()
+        
+        local toPurple = TweenService:Create(UIStrokeIntro, TweenInfo.new(1.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {
+            Color = Color3.fromRGB(140, 50, 255)
+        })
+        toPurple:Play()
+        toPurple.Completed:Wait()
+    end
+end)
+
+-- اختفاء النافذة تماماً بعد 4 ثوانٍ وصعودها للأعلى كالمحترفين
+task.delay(4, function()
+    if IntroFrame and IntroFrame.Parent then
+        local raiseTween = TweenService:Create(IntroFrame, TweenInfo.new(0.6, Enum.EasingStyle.Quad, Enum.EasingDirection.In), {
+            Position = UDim2.new(0.5, -155, -0.3, 0),
+            BackgroundTransparency = 1
+        })
+        raiseTween:Play()
+        raiseTween.Completed:Connect(function()
+            if IntroFrame then IntroFrame:Destroy() end
+        end)
+    end
+end)
+
+-- ==========================================================
+-- 🛠️ أزرار التحكم والقتال الأصلية (المواقع المريحة الجانبية)
+-- ==========================================================
+local function createSafeButton(name, text, position, color)
+    local btn = Instance.new("TextButton")
+    btn.Name = name
+    btn.Size = UDim2.new(0, 48, 0, 48)
+    btn.Position = position
+    btn.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+    btn.Text = text
+    btn.TextColor3 = color
+    btn.Font = Enum.Font.SourceSansBold
+    btn.TextSize = 13
+    btn.Parent = ScreenGui
+    
+    local corner = Instance.new("UICorner")
+    corner.CornerRadius = UDim.new(0.5, 0)
+    corner.Parent = btn
+    
+    local stroke = Instance.new("UIStroke")
+    stroke.Color = color
+    stroke.Thickness = 1.5
+    stroke.Parent = btn
+    
+    return btn
+end
+
+local LQ_Btn = createSafeButton("LQ_Mode", "LQ:OFF", UDim2.new(0.76, 0, 0.35, 0), Color3.fromRGB(255, 50, 50))
+local lqEnabled = false
+LQ_Btn.MouseButton1Click:Connect(function()
+    lqEnabled = not lqEnabled
+    if lqEnabled then
+        LQ_Btn.Text = "LQ:ON"
+        LQ_Btn.TextColor3 = Color3.fromRGB(50, 255, 50)
+        LQ_Btn.UIStroke.Color = Color3.fromRGB(50, 255, 50)
+        settings().Rendering.QualityLevel = Enum.QualityLevel.Level01
+        for _, v in pairs(workspace:GetDescendants()) do
+            if v:IsA("Part") or v:IsA("MeshPart") or v:IsA("UnionOperation") then
+                if not materialBackup[v] then materialBackup[v] = v.Material end
+                if not colorBackup[v] then colorBackup[v] = v.Color end
+                v.Material = Enum.Material.SmoothPlastic
+                v.Color = Color3.fromRGB(120, 120, 120)
+            elseif v:IsA("Texture") or v:IsA("Decal") then
+                if not texturesBackup[v] then texturesBackup[v] = v.Parent end
+                v.Parent = nil
+            elseif v:IsA("Light") or v:IsA("ShadowEffect") or v:IsA("PostEffect") then
+                if not lightsBackup[v] then lightsBackup[v] = v.Enabled end
+                v.Enabled = false
+            end
+        end
+    else
+        LQ_Btn.Text = "LQ:OFF"
+        LQ_Btn.TextColor3 = Color3.fromRGB(255, 50, 50)
+        LQ_Btn.UIStroke.Color = Color3.fromRGB(255, 50, 50)
+        settings().Rendering.QualityLevel = Enum.QualityLevel.Automatic
+        for part, mat in pairs(materialBackup) do if part and part.Parent then part.Material = mat end end
+        for part, col in pairs(colorBackup) do if part and part.Parent then part.Color = col end end
+        for tex, parent in pairs(texturesBackup) do if tex then tex.Parent = parent end end
+        for light, state in pairs(lightsBackup) do if light then light.Enabled = state end end
+        materialBackup = {} colorBackup = {} texturesBackup = {} lightsBackup = {}
+    end
+end)
+
+local JL_Btn = createSafeButton("JL_Mode", "Lock", UDim2.new(0.74, 0, 0.48, 0), Color3.fromRGB(0, 180, 255))
+local lockEnabled = false
+local lockConnection = nil
+
+local function getClosestPlayer()
+    local closestPlayer = nil
+    local shortestDistance = math.huge
+    for _, player in pairs(Players:GetPlayers()) do
+        if player ~= LocalPlayer and player.Character and player.Character:FindFirstChild("HumanoidRootPart") and player.Character:FindFirstChild("Humanoid") and player.Character.Humanoid.Health > 0 then
+            local distance = (LocalPlayer.Character.HumanoidRootPart.Position - player.Character.HumanoidRootPart.Position).Magnitude
+            if distance < shortestDistance then
+                shortestDistance = distance
+                closestPlayer = player
+            end
+        end
+    end
+    return closestPlayer
+end
+
+JL_Btn.MouseButton1Click:Connect(function()
+    if lockEnabled then return end
+    lockEnabled = true
+    JL_Btn.TextColor3 = Color3.fromRGB(150, 150, 150)
+    local startTime = tick()
+    local duration = 1.7
+    local jiggleDirection = 1
+    lockConnection = RunService.RenderStepped:Connect(function()
+        if LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then
+            local targetPlayer = getClosestPlayer()
+            if targetPlayer and targetPlayer.Character and targetPlayer.Character:FindFirstChild("HumanoidRootPart") then
+                local targetPos = targetPlayer.Character.HumanoidRootPart.Position
+                local cameraPos = Camera.CFrame.Position
+                local targetCFrame = CFrame.new(cameraPos, Vector3.new(targetPos.X, cameraPos.Y, targetPos.Z))
+                jiggleDirection = -jiggleDirection
+                local jiggleAngle = math.rad(math.random(8, 14) * jiggleDirection)
+                Camera.CFrame = Camera.CFrame:Lerp(targetCFrame * CFrame.Angles(0, jiggleAngle, 0), 0.25)
+            end
+        end
+    end)
+    task.wait(duration)
+    if lockConnection then lockConnection:Disconnect() lockConnection = nil end
+    JL_Btn.TextColor3 = Color3.fromRGB(0, 180, 255)
+    lockEnabled = false
+end)
+
+local AF_Btn = createSafeButton("AF_Mode", "Flick", UDim2.new(0.74, 0, 0.62, 0), Color3.fromRGB(255, 180, 0))
+local isFlicking = false
+local flickConnection = nil
+AF_Btn.MouseButton1Click:Connect(function()
+    if isFlicking then return end
+    if not LocalPlayer.Character or not LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then return end
+    isFlicking = true
+    AF_Btn.TextColor3 = Color3.fromRGB(150, 150, 150)
+    local hrp = LocalPlayer.Character.HumanoidRootPart
+    local startTime = tick()
+local duration = 1.5
+local cycleCounter = 0
+local currentDirection = 1
+flickConnection = RunService.RenderStepped:Connect(function()
+if hrp and hrp.Parent then
+cycleCounter = cycleCounter + 1
+if cycleCounter % 5 == 0 then
+task.wait(math.random(1, 3) / 100)
+if math.random(1, 10) > 7 then currentDirection = -currentDirection end
+end
+local humanizer = math.random(36, 42) * currentDirection
+hrp.CFrame = hrp.CFrame * CFrame.Angles(0, math.rad(humanizer), 0)
+end
+end)
+task.wait(duration)
+if flickConnection then flickConnection:Disconnect() flickConnection = nil end
+AF_Btn.TextColor3 = Color3.fromRGB(255, 180, 0)
+isFlicking = false
+end)
+print("تم تقفيل الكود البرمجي بالكامل داخل صندوق النسخ بنجاح!")
